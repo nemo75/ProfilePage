@@ -1,0 +1,116 @@
+body
+{
+	margin:0;
+	padding:0;
+	background-color: #F0F0F0;
+	font-family: 'maven pro'
+}
+
+#entete
+{
+	background-color: #e6154d;
+	padding-top: 20px;	
+	padding-bottom: 10px; 
+	margin-bottom: 50px;
+	text-align: center;
+	color: white;
+	height: 390px;
+}
+
+.photo
+{
+    border-radius:  10px;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#presentation, #acc
+{
+	width: 940px;
+	margin: auto;
+}	
+
+p:not(#simplon)
+{
+	float:left;
+	font-size: 21px;
+	width: 700px;
+	height: 380px; 
+	text-align: justify;
+	font-family: 'maven pro';
+}
+
+#menu
+{
+	width: 25%;
+	height: 180px;
+	background-color: #EEEEEE;
+	display: inline-block;
+	vertical-align: top;
+	float:right;
+	
+}
+
+.liste
+{
+	padding-top: 20px;
+}
+li
+{
+	list-style-type:none;
+}
+a
+{
+	text-decoration: none;
+	color:#9E9E9E;
+	font-size: 23px;
+}
+a:hover
+{
+	cursor:default;
+	text-decoration:none;
+	color: #01579B;
+}
+.badges
+{
+	padding-left: 4px;
+}
+.contact
+{
+	padding-left: 10px;
+}
+.cache
+{
+	display:none;
+	vertical-align: top;
+}
+#name
+{
+	font-family: 'maven pro';
+	font-size: 22px;
+}
+#pageacceuil
+{
+	width: 65%;
+	margin: auto;
+	display: inline-block;
+	height: 450px;
+	padding-left: 50px;
+	font-family: 'maven pro';
+}
+
+#simplon
+{
+		text-align: justify;
+		font-size: 21px;
+}
+#pagedacceuil>h2
+{
+	text-align: center;
+}
+span
+{
+	text-transform: capitalize;
+}
