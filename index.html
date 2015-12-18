@@ -8,10 +8,20 @@
     <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Maven+Pro:500' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="images/sim.ico">
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
     <title>ProfilePage</title>
 </head>
 <body>
 <script id="template" type="x-tmpl-mustache">
+   <div id="openModal" class="bloc">
+        <div class="block">
+        <a href="#close" title="Close" class="close">X</a>
+            <h3 class="title">Mes coordonnées</br></h3>
+            <p>Email :{{contact.email}}</p>
+            <p>Website :{{contact.website}}</p>
+            <p>Github :{{github}}</p>
+        </div>
+    </div>
     <div id="entete">   
         <b><h1>Simplon Toulouse</h1></b>
         <a href="index.html"><img  class ="photo" src="images/profilepicture.jpg" alt="photo de profile"></a>
@@ -39,9 +49,6 @@
     <p class="cache" id="texte2"><b>Badges :</b> {{badges}}</p>
     <p class="cache" id="texte3"><b>Email :</b> {{contact.email}}</p>
     </div>
-
-
-
 
 
 </script>

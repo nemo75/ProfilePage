@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "sweetly";
+    src: url('Sweetly.ttf');
+}
+
 body
 {
 	margin:0;
@@ -32,7 +37,7 @@ body
 	margin: auto;
 }	
 
-p:not(#simplon)
+#pageacceuil>p:not(#simplon), #presentation>p
 {
 	float:left;
 	font-size: 21px;
@@ -114,6 +119,88 @@ h1, h2, h3
 {
 	text-transform: capitalize;
 }
+
+.bloc
+{
+	display:none;
+	width: 96%;
+	height: 92%;
+	padding: 20px;
+	border: 20px solid #ddd;
+	font-size: 1.2em;
+	position: fixed;
+	z-index: 99999;
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0,.5);
+
+
+}
+.block
+{
+	width: 450px;
+	background: #e6154d;
+  	height: 250px;
+  	padding: 20px;
+  	margin:0 auto;
+  	position: absolute;
+  	top: 38%;
+  	left: 35%;
+  	margin: -70px 0 0 -170px
+  	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 20px solid #ddd;
+}
+.title
+{
+	text-align: center;
+	margin-top: -20px;
+	font-size: 24px;
+	font-family: 'Indie Flower';
+}
+.block>p
+{
+	font-family: 'Indie Flower';
+	font-size: 29px;
+}
+.close {
+	background: #F0F0F0;
+	color: black;
+	line-height: 25px;
+	position: absolute;
+	right: -18px;
+	text-align: center;
+	top: -20px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* .modalDialog {
 	font-family: 'maven pro';
 	background: #e6154d; 

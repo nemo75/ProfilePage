@@ -46,8 +46,16 @@ $(document).ready(function()
             infos("{{contact.email}}", $('span[elt="email"]'), json);
             infos("{{badges}}", $('span[elt="badges"]'), json);
         });*/
+        
+
+
+
+
+
+
         $('body').on('click','a', function()
             {
+                $('.bloc').hide('fast');
                 $('.cache').hide();
                 var val =$(this).attr('href');
                 $(val).show();
