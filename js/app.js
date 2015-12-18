@@ -46,11 +46,9 @@ $(document).ready(function()
             infos("{{contact.email}}", $('span[elt="email"]'), json);
             infos("{{badges}}", $('span[elt="badges"]'), json);
         });*/
-
         $('body').on('click','a', function()
             {
                 $('.cache').hide();
-               
                 var val =$(this).attr('href');
                 $(val).show();
                 $('#pageacceuil').hide('fast');
@@ -58,7 +56,7 @@ $(document).ready(function()
                 $('.titre').hide('fast');
             });
        
-        $.getJSON("http://vps227573.ovh.net/u-14.json",function(data)    
+        $.getJSON("https://s.idsympa.com/u-14.json",function(data)    
         {
             var template = $('#template').html();
             var infos = Mustache.to_html(template, data);
