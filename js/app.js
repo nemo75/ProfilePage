@@ -55,7 +55,7 @@ $(document).ready(function()
 
         $('body').on('click','a', function()
             {
-                $('.bloc').hide('fast');
+                $('.bloc').hide('fast');    
                 $('.cache').hide();
                 var val =$(this).attr('href');
                 $(val).show();
@@ -64,10 +64,10 @@ $(document).ready(function()
                 $('.titre').hide('fast');
             });
        
-        $.getJSON("https://s.idsympa.com/u-14.json",function(data)    
+        $.getJSON("user-14.json",function(data)    
         {
             var template = $('#template').html();
             var infos = Mustache.to_html(template, data);
             $('body').html(infos);
         });
-	}); 
+	});
